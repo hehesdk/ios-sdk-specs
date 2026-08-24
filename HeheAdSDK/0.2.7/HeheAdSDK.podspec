@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.default_subspecs = ['Core']
   s.source           = {
     :http => 'https://res.wooymoon.com/sdk/release/ios/HeheAdSDK-0.2.7.zip',
-    :sha256 => '46be82d08708eac7993153f0cc367662e7c630fa1e1e7e2dbed99bac52e4254a'
+    :sha256 => '053e7fcc6464d92751ac994bcfaf2d687824f985ca0f0f5f76f4390e037aae18'
   }
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 

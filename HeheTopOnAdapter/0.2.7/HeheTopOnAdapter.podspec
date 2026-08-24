@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.source           = {
     :http => 'https://res.wooymoon.com/sdk/release/ios/HeheTopOnAdapter-0.2.7.xcframework.zip',
-    :sha256 => '7ba881d65ce4a5712576bfa5da7e0a45394a177e1824d05ed9d39619050a6d71'
+    :sha256 => '69565edc96a48d495e58a598225551e06be620a16628017ca1b3866919cbf8e4'
   }
   s.vendored_frameworks = 'HeheTopOnAdapter.xcframework'
   s.dependency 'HeheSDK', s.version.to_s
