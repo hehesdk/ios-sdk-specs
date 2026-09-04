@@ -4,7 +4,7 @@
 
 - 远程：https://github.com/hehesdk/ios-sdk-specs
 - CDN：https://res.wooymoon.com/sdk/release/ios/
-- 当前套装：`0.2.8`
+- 当前套装：`0.2.9`
 - 方案：`H-Adaptor/docs/按需分发_主仓_SpecRepo_CDN.md`
 
 ## 宿主
@@ -15,7 +15,7 @@ source 'https://github.com/hehesdk/ios-sdk-specs.git'
 
 target 'YourApp' do
   use_frameworks! :linkage => :static
-  pod 'HeheAdMobAdapter', '0.2.8'
+  pod 'HeheAdMobAdapter', '0.2.9'
 end
 ```
 
